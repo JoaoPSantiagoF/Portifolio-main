@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>João Pedro Santiago Ferreira | Portfólio</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <h1 class="logo">João <span>P. Santiago</span></h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#certificados">Certificados</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Olá, eu sou <span>João Pedro Santiago Ferreira</span></h2>
+      <p>Estudante de ADS na Unoeste — focado em aprender mais a cada dia.</p>
+      <div class="hero-buttons">
+        <a href="https://github.com/JoaoPSantiagoF" target="_blank" class="btn-primary">GitHub</a>
+        <a href="mailto:jplok1025@outlook.com" class="btn-outline">E-mail</a>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section id="certificados" class="fade-section">
+    <h2>Certificados</h2>
+
+    <p>
+        <img class="foto" src="CREA.png" onclick="abrirImagem(this)">
+        <img class="foto" src="Certificado_Google_CLOUD.png" onclick="abrirImagem(this)">
+    </p>
+</section>
+
+<div id="visualizador" onclick="fecharImagem()">
+    <span class="fechar">&times;</span>
+    <img id="imagemAmpliada">
+</div>
+
+    <section id="habilidades" class="fade-section">
+      <h2>Habilidades</h2>
+      <div class="skills-grid">
+        <div class="skill-card">HTML5</div>
+        <div class="skill-card">CSS3</div>
+        <div class="skill-card">JavaScript</div>
+        <div class="skill-card">DevC++</div>
+        <div class="skill-card">MySQL</div>
+        <div class="skill-card">Git & GitHub</div>
+        <div class="skill-card">NextJS</div>
+        <div class="skill-card">Typescript</div>
+        <div class="skill-card">CLOUD IA</div>
+        <div class="skill-card">Agent</div>
+        <div class="skill-card">C#</div>
+        <div class="skill-card">C++</div>
+        <div class="skill-card">Redes</div>
+        <div class="skill-card">Python</div>
+        <div class="skill-card">React</div>
+      </div>
+    </section>
+
+    <section id="projetos" class="fade-section">
+      <h2>Projetos</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>AgroNexus</h3>
+          <p>Plataforma de gestão agroindustrial com Node.js e Bootstrap.</p>
+          <a href="#">Ver no GitHub</a>
+        </div>
+        <div class="project-card">
+          <h3>DoaAlimentos</h3>
+          <p>Aplicação web para doação de alimentos, com autenticação e dashboard.</p>
+          <a href="#">Ver no GitHub</a>
+        </div>
+        <div class="project-card">
+          <h3>INSS Web</h3>
+          <p>Sistema para controle de aposentadorias e validação de descontos indevidos.</p>
+          <a href="#">Ver no GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="fade-section">
+      <h2>Contato</h2>
+      <p>Entre em contato para colaborações ou oportunidades.</p>
+      <a href="mailto:jplok1025@outlook.com" class="btn-primary">Enviar Mensagem</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 João Pedro Santiago Ferreira — Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
